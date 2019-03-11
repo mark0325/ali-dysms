@@ -1,0 +1,22 @@
+{
+    "name": "mark0325/ali-dysms",
+	"description": "阿里云短信服务核心代码",
+    "keywords": ["sdk", "aliyun", "aliyun-sms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "我想有个家",
+            "email": "niuniu5100200@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\Core\\": "aliyun-php-sdk-core",
+            "Aliyun\\Request\\": "Request"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">5.5"
+	}
+}
